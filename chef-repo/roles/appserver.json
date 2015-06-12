@@ -1,0 +1,19 @@
+{
+  "name": "appserver",
+  "description": "App server for Test org",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+    "tomcat": {
+      "port": [ "8080" ]
+    }
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[tomcat]"
+  ],
+  "env_run_lists": {
+  }
+}
+

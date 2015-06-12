@@ -1,0 +1,19 @@
+{
+  "name": "webserver",
+  "description": "Web server for Test org",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+    "apache": {
+      "listen_ports": [ "80" ]
+    }
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[apache2]"
+  ],
+  "env_run_lists": {
+  }
+}
+
