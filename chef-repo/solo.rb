@@ -1,6 +1,6 @@
 # solo.rb
 
-chefdir = '/tmp'
+chefdir = '/root/devopsdemo'
  
 file_cache_path chefdir
 data_bag_path   File.join(chefdir, 'data_bags')
