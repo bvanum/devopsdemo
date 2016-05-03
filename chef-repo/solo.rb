@@ -1,4 +1,5 @@
 # solo.rb
+# Test commit
 
 chefdir = '/root/devopsdemo/chef-repo'
  
